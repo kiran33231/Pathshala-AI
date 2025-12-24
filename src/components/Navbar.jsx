@@ -3,7 +3,7 @@ import { Menu, X } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 
-import logo from "../assets/images/icon.png";
+import icon from "../assets/images/icon.png";
 import sidebarIcon from "../assets/images/sidebar.png";
 
 function Navbar({ isSidebarOpen, setIsSidebarOpen }) {
@@ -43,7 +43,7 @@ function Navbar({ isSidebarOpen, setIsSidebarOpen }) {
         {/* Logo */}
         <div className="flex items-center mx-auto md:mx-0">
           <Link to="/">
-            <img src={logo} alt="Pathshala AI" className="w-10 h-10 mr-2" />
+            <img src={icon} alt="Pathshala AI" className="w-10 h-10 mr-2" />
           </Link>
           <span className="font-bold text-xl">Pathshala AI</span>
         </div>
