@@ -3,8 +3,8 @@ import { Menu, X } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 
-import icon from "../assets/images/icon.png";
-import sidebarIcon from "../assets/images/sidebar.png";
+import icon from "../assets/Images/icon.png";
+import sidebarIcon from "../assets/Images/sidebar.png";
 
 function Navbar({ isSidebarOpen, setIsSidebarOpen }) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
